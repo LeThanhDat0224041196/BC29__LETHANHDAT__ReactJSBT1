@@ -4,6 +4,7 @@ import Header from './Components/BatTapLayoutComponent/Header';
 import Banner from './Components/BatTapLayoutComponent/Banner';
 import Body from './Components/BatTapLayoutComponent/Body';
 import Item from './Components/BatTapLayoutComponent/Item';
+import Footer from './Components/BatTapLayoutComponent/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Body />
       <Banner />
       <Item />
+      <Footer />
     </div>
   );
 }
